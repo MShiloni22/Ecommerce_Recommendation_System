@@ -32,8 +32,8 @@ The project minimizes the risk of overfitting through cross-validation, which tr
 ## Instructions for Running the Code
 Ensure you have the required dependencies installed, including pandas, numpy, and surprise.
 Place the data files (user_artist.csv and test.csv) in the appropriate directory.
-Run the Python code provided (206574733_208634469_task1.py) to perform data transformation, model selection, and prediction.
-The final predictions will be saved in the 206574733_208634469_task1.csv file in the working directory.
+Run the Python code provided (task1.py) to perform data transformation, model selection, and prediction.
+The final predictions will be saved in the task1.csv file in the working directory.
 _Note: The model selection process can be time-consuming (approximately two hours). You may choose to comment out this part of the code if not necessary._
 
 ## Conclusion
