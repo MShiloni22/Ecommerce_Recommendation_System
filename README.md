@@ -6,7 +6,9 @@ Welcome to the Spotifly Recommendation System project! This project aims to buil
 ## Data
 ### Data Files
 `user_artist.csv`: This file contains playback data, including user IDs, artist IDs, and the number of times a user listened to a specific artist.
+
 `friends_user.csv`: Describes the social network connections between users. Each row represents a pair of neighboring users.
+
 `test.csv`: Contains pairs of users and artists for which predictions need to be made.
 ### Data Transformation
 To prepare the data for modeling, a logarithmic transformation was applied to the playback counts in the user_artist.csv file.
