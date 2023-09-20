@@ -92,6 +92,6 @@ if __name__ == '__main__':
     print(test_pd)
 
     print("Exported predictions to predictions.csv file in working directory")
-    test_pd.to_csv("206574733_208634469_task1.csv", index=False)
+    test_pd.to_csv("task1.csv", index=False)
     remove("user_artist_log10.csv")
-    # remove("206574733_208634469_task1.csv")  # comment this line if you'd like to get the predictions file
+    # remove("task1.csv")  # comment this line if you'd like to get the predictions file
